@@ -1,0 +1,21 @@
+{
+    "model": {
+        "module": "model.unet_basic",
+        "main": "Model",
+        "args": {}
+    },
+    "dataset": {
+        "module": "dataset.waveform_dataset_enhancement",
+        "main": "WaveformDataset",
+        "args": {
+            "dataset": "Datasets/test_dataset_rotors.txt",
+            "limit": 400,
+            "offset": 0,
+            "sample_length": 16384
+        }
+    },
+    "custom": {
+        "sample_length": 16384,
+        "sample_rate": 8000
+    }
+}
