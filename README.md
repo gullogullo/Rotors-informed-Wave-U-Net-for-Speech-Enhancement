@@ -6,9 +6,8 @@ PyTorch implementation of [Wave-U-Net](https://arxiv.org/abs/1806.03185) for spe
 
 librosa, numpy, torch, scipy, tqdm, soundpy, json5, pesq, pystoi, torchmetrics, soundfile
 
-# Clone
+## Clone
 git clone https://github.com/gullogullo/Rotors-informed-Wave-U-Net-for-Speech-Enhancement.git
-```
 
 ## Usage 
 
